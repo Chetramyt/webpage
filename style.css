@@ -426,6 +426,34 @@ transform: rotate(360deg);
 .g-content div a{
     display: block;
 }
+.container{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 0px !important;
+    margin-top: 2px !important;
+    width: 100% !important;
+
+}
+.container-text p{
+    font-size: 18px !important;
+    
+}
+.container-text p span{
+    font-size: 23px !important;
+}
+#first{
+    padding: 15px;
+}
+.sec-content{
+    gap: 30px;
+}
+#second h1{
+    margin-bottom: 22px !important;
+}
+.line{
+    margin: 20px 0 !important;
+}
 }
 
 /* __________________________________________________________________________________________ */
@@ -435,7 +463,7 @@ transform: rotate(360deg);
 /* __________________________________________________________________________________________ */
 
 .container{
-    padding: 25px 5px;
+    padding: 25px 50px;
   
 }
 .container a{
